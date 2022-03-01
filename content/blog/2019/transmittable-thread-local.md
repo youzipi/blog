@@ -9,7 +9,8 @@ tags:
 - InheritableThreadLocal
 - TransmittableThreadLocal
 description: 解决因使用 TransmittableThreadLocal 导致的线程数据逸出。ThreadLocal，ITL，TTL 的原理解析。
-
+aliases:
+    - /2019/02/18/transmittable-thread-local/
 ---
 
 > 解决因使用 `TransmittableThreadLocal` 导致的线程数据逸出。ThreadLocal，ITL，TTL 的原理解析。
