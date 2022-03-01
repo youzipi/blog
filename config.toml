@@ -35,7 +35,7 @@ enableGitInfo = true
   expiryDate = ["expiryDate"]
 
 [permalinks]
-  blog = "/blog/:year/:month/:day/:title/"
+  blog = "/blog/:year/:month/:day/:filename/"
   docs = "/:title/"
 
 
