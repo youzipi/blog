@@ -6,7 +6,6 @@ DefaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 
 theme = 'mainroad'
-# theme = 'maupassant'
 
 paginate = "10" # Number of posts per page
 disqusShortname = "youzipi" # Enable comments by entering your Disqus shortname
@@ -54,11 +53,6 @@ enableGitInfo = true
         url = "/blog/"
         weight = 10
     [[menu.main]]
-      identifier = "archives"
-      name = "archives"
-      url = "/archives/"
-      weight = 15
-    [[menu.main]]
         identifier = "categories"
         name = "categories"
         url = "/categories/"
@@ -101,9 +95,9 @@ enableGitInfo = true
 
   
   # style
-#   customCSS = [
-# 	"https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css",
-# ]
+  customCSS = [
+	"https://cdn.jsdelivr.net/npm/nt@1.1.0/style.css",
+]
 
 [Params.logo]
   image = "img/avatar.jpg"
@@ -156,28 +150,3 @@ enableGitInfo = true
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 # [Params]
-
-
-# maupassant
-
-## utteranc
-[Params.utteranc]
-  enable = true
-  repo = "youzipi/youzipi.github.io"    # 存储评论的Repo，格式为 owner/repo
-  issueTerm = "title"  #表示你选择以那种方式让github issue的评论和你的文章关联。
-  theme = "github-light" # 样式主题，有github-light和github-dark两种
-
-## cc
-[Params.cc]
-  name = "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
-  link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
-
-## busuanzi
-[params]
-  busuanzi = true
-
-
-[[Params.links]]
-  title = "github"
-  name = "github"
-  url = "https://github.com/youzipi"
