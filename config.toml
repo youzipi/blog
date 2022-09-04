@@ -10,7 +10,7 @@ theme = 'mainroad'
 
 paginate = "10" # Number of posts per page
 disqusShortname = "youzipi" # Enable comments by entering your Disqus shortname
-googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+googleAnalytics = "UA-46772215-1" # Enable Google Analytics by entering your tracking id
 
 enableGitInfo = true
 
