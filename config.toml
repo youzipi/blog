@@ -1,4 +1,5 @@
 baseURL = 'http://youzipi.org/'
+buildFuture = true
 title = 'youzipi'
 
 languageCode = "zh-cn"
@@ -46,7 +47,7 @@ enableGitInfo = true
   avatar = "img/avatar.jpg"
 
 
-# 在顶部添加菜单栏, weight 决定显示顺序
+# 在顶部添加菜单栏，weight 决定显示顺序
 [menu]
     [[menu.main]]
         identifier = "blog"
@@ -75,7 +76,7 @@ enableGitInfo = true
         weight = 40
 
 [Params]
-  description = "John Doe's Personal blog about everything" # Description of your site
+  description = "youzipi's blog" # Description of your site
   opengraph = true
   schema = true
   twitter_cards = false
@@ -97,7 +98,7 @@ enableGitInfo = true
   # show word count and read time ?                       # 是否显示字数统计与阅读时间
   moreMeta = true
 
-  fancybox = true           # see https://github.com/fancyapps/fancybox                 # 是否启用fancybox（图片可点击）
+  fancybox = true           # see https://github.com/fancyapps/fancybox                 # 是否启用 fancybox（图片可点击）
 
   
   # style
@@ -163,9 +164,9 @@ enableGitInfo = true
 ## utteranc
 [Params.utteranc]
   enable = true
-  repo = "youzipi/youzipi.github.io"    # 存储评论的Repo，格式为 owner/repo
-  issueTerm = "title"  #表示你选择以那种方式让github issue的评论和你的文章关联。
-  theme = "github-light" # 样式主题，有github-light和github-dark两种
+  repo = "youzipi/youzipi.github.io"    # 存储评论的 Repo，格式为 owner/repo
+  issueTerm = "title"  #表示你选择以那种方式让 github issue 的评论和你的文章关联。
+  theme = "github-light" # 样式主题，有 github-light 和 github-dark 两种
 
 ## cc
 [Params.cc]

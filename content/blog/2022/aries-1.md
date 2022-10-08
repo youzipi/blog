@@ -11,6 +11,8 @@ tags:
 description: ARIES 如何使用 WAL 实现 原子性和一致性
 ---
 
+> ARIES 如何使用 WAL 实现 原子性和一致性
+<!--more-->
 
 ## concept
 
