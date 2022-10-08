@@ -1,6 +1,6 @@
 ---
 title: 'ARIES(1/n) - 使用 WAL 实现 原子性和一致性'
-date: 2022-10-08 14:44:24
+date: 2021-11-06 20:06:00
 updated: 2022-10-08 14:44:30
 categories: 
 - paper-reading
