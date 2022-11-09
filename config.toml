@@ -7,7 +7,6 @@ DefaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 
 theme = 'mainroad'
-# theme = 'maupassant'
 
 paginate = "10" # Number of posts per page
 disqusShortname = "youzipi" # Enable comments by entering your Disqus shortname
@@ -37,8 +36,9 @@ enableGitInfo = true
   expiryDate = ["expiryDate"]
 
 [permalinks]
-  blog = "/blog/:year/:month/:day/:filename/"
-  docs = "/:title/"
+  # blog = "/blog/:year/:month/:day/:filename/"
+  blog = "/blog/:year/:filename/"
+  docs = "/:filename/"
 
 
 [Author]
